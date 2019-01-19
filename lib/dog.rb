@@ -5,6 +5,10 @@ class Dog
     puts "Woof!"
   end 
   
+  def bark
+    @bark
+  end 
+  
   def name=(name)
     @name = name
   end 
